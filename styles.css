@@ -1,17 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-}
-
-header{
-    background-image: url("imgs/background.png");
-    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
 }
 
 nav{
@@ -20,6 +9,7 @@ nav{
     color: white;
     padding: 10px;
     align-items: center;
+    background-color: #2e2e2e;
 }
 
 .logo{
@@ -49,4 +39,39 @@ a{
     justify-content:space-around;
     padding: 10px;
     align-items: center;
+    height:100vh;
+    background-image: url("./imgs/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img-itself{
+    width: 300px;
+}
+
+.banner-title{
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.banner-subtitle{
+    font-size: 18px;
+    margin-top:15px
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
 }
